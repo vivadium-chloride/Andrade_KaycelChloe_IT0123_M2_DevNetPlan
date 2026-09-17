@@ -2,9 +2,9 @@
 
 ## Student and Project
 
-- Name:
-- Section:
-- Repository name: `it0123-devnet-resource-plan`
+- Name: Andrade, Kaycel Chloe B.
+- Section: BSCSAI - TA31
+- Repository name: `Andrade_KaycelChloe_IT0123_M2_DevNetPlan`
 
 ## Purpose
 
