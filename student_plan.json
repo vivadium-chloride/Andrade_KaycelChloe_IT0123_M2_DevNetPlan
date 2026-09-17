@@ -5,35 +5,35 @@
   "entries": [
     {
       "use_case_id": "UC1",
-      "selected_resource_type": "",
-      "official_evidence_url": "",
-      "ai_recommendation_summary": "",
-      "verification_status": "",
-      "rationale": ""
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "The team needs immediate access, can use a shared environment, only needs read-only/non-admin API access, and cannot wait for provisioning.",
+      "verification_status": "verified",
+      "rationale": "Always-on-sandbox was selected because the team requires immediate API access and does not require administrative privileges. The shared nature of the environment is acceptable, while waiting for provisioning is not."
     },
     {
       "use_case_id": "UC2",
-      "selected_resource_type": "",
-      "official_evidence_url": "",
-      "ai_recommendation_summary": "",
-      "verification_status": "",
-      "rationale": ""
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "The team specifically needs private/isolation + administrative access and is willing to schedule access, use VPN, and wait for setup.",
+      "verification_status": "verified",
+      "rationale": "Reservation-sandbox was selected because configuration testing requires a private environment with administrative access. The team can accommodate the required reservation, VPN connection, and provisioning time."
     },
     {
       "use_case_id": "UC3",
-      "selected_resource_type": "",
-      "official_evidence_url": "",
-      "ai_recommendation_summary": "",
-      "verification_status": "",
-      "rationale": ""
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/networking-platform/",
+      "ai_recommendation_summary": "The beginner needs structured, step-by-step instruction before independently working with APIs; the primary requirement is guided learning, not device administration.",
+      "verification_status": "verified",
+      "rationale": "Learning-lab was selected because the user requires structured, guided instruction before attempting independent API work. Access to an administrative environment is not the immediate objective."
     },
     {
       "use_case_id": "UC4",
-      "selected_resource_type": "",
-      "official_evidence_url": "",
-      "ai_recommendation_summary": "",
-      "verification_status": "",
-      "rationale": ""
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "The developer wants to inspect existing Cisco/community code repositories for a network-automation use case rather than create everything from scratch.",
+      "verification_status": "verified",
+      "rationale": "Code-exchange was selected because the developer's goal is to inspect and reuse existing network-automation code rather than obtain a live testing environment or guided tutorial."
     }
   ]
 }
